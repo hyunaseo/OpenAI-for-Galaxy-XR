@@ -82,12 +82,21 @@ Desktop.ini
 
 # 1) Scripts: keep Scripts, but ignore Utils subfolder
 /Assets
-
+!/Assets/
+!/Assets/Plugins/
+!/Assets/Plugins/Android/
 !/Assets/Plugins/Android/AndroidManifest.xml
+!/Assets/Scripts/
 !/Assets/Scripts/OpenAIQueryVision.cs
 !/Assets/Scripts/StreamPassthrough.cs
-
+!/Assets/Scenes/
 !/Assets/Scenes/OpenAIforGalaxyXR.unity
+
+.utmp/
+.utmp/*
+.vscode/ 
+.vscode/*
+
 
 ############################
 # Keep these (DO NOT IGNORE)

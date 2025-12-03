@@ -81,30 +81,13 @@ Desktop.ini
 /Server 
 
 # 1) Scripts: keep Scripts, but ignore Utils subfolder
-/Assets/Scripts/Utils/
+/Assets
 
-# 2) Do NOT include sample / template / test assets
-/Assets/Samples/
-/Assets/Resources/
-/Assets/Materials/
-/Assets/CompositionLayers/
-/Assets/_Recovery/
-/Assets/MRTemplateAssets/
-/Assets/Settings/
-/Assets/Test/
-/Assets/TextMeshPro/
-/Assets/TransclucentImageAsset/
-/Assets/XR/
-/Assets/XRI/
-
-# 3) Scenes: keep Scenes, but ignore some subfolders
-/Assets/Scenes/Legacy/
-/Assets/Scenes/SampleScene/
-
-# 4) Plugins: we DO keep
-# (No ignore rule here → Assets/Plugins 전체 커밋됨)
-# 필요하다면, 명시적으로 manifest 포함시키고 싶으면 아래처럼 적어도 됨:
 !/Assets/Plugins/Android/AndroidManifest.xml
+!/Assets/Scripts/OpenAIQueryVision.cs
+!/Assets/Scripts/StreamPassthrough.cs
+
+!/Assets/Scenes/OpenAIforGalaxyXR.unity
 
 ############################
 # Keep these (DO NOT IGNORE)

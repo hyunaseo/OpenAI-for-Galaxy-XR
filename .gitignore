@@ -1,0 +1,121 @@
+############################
+# Unity / Project Folders  #
+############################
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Bb]urstDebugInformation/
+NoonChi_BurstDebugInformation_DoNotShip/
+
+# Local user-specific settings
+UserSettings/
+.vs/
+.idea/
+*.user
+*.userprefs
+
+############################
+# Unity Auto-generated     #
+############################
+
+# Unity generates these solution/project files automatically
+*.csproj
+*.sln
+*.slnx
+*.unityproj
+*.pidb
+*.suo
+
+# Unity profiler / crash
+*.stacktrace
+*.dmp
+
+############################
+# BackUpThisFolder         #
+############################
+
+# Unity backup folders created during builds
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+############################
+# Build Artifacts          #
+############################
+
+# Android builds
+*.apk
+*.aab
+*.obb
+
+# Other possible platform builds
+*.app
+*.exe
+*.apk.meta
+*.ipa
+
+############################
+# OS / Editor junk         #
+############################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+############################
+# Assets – selective ignore
+############################
+
+/Server 
+
+# 1) Scripts: keep Scripts, but ignore Utils subfolder
+/Assets/Scripts/Utils/
+
+# 2) Do NOT include sample / template / test assets
+/Assets/Samples/
+/Assets/Resources/
+/Assets/Materials/
+/Assets/CompositionLayers/
+/Assets/_Recovery/
+/Assets/MRTemplateAssets/
+/Assets/Settings/
+/Assets/Test/
+/Assets/TextMeshPro/
+/Assets/TransclucentImageAsset/
+/Assets/XR/
+/Assets/XRI/
+
+# 3) Scenes: keep Scenes, but ignore some subfolders
+/Assets/Scenes/Legacy/
+/Assets/Scenes/SampleScene/
+
+# 4) Plugins: we DO keep
+# (No ignore rule here → Assets/Plugins 전체 커밋됨)
+# 필요하다면, 명시적으로 manifest 포함시키고 싶으면 아래처럼 적어도 됨:
+!/Assets/Plugins/Android/AndroidManifest.xml
+
+############################
+# Keep these (DO NOT IGNORE)
+############################
+
+# These folders should stay tracked:
+# Assets/
+#   - Scripts (except Scripts/Utils)
+#   - Prefabs
+#   - Plugins (including plugin manifests)
+#   - Scenes (except Legacy, SampleScene)
+# Packages/
+# ProjectSettings/
+# (Optionally) .gitignore, README.md, etc.

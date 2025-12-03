@@ -5,7 +5,7 @@ This Unity project demonstrates how to capture a user's voice and egocentric cam
 ## Key Features
 - Captures microphone input on Galaxy XR, forwards it to the OpenAI Responses API, and returns text output.
 - Sends the current egocentric camera frame alongside the voice transcript to enrich the OpenAI query context.
-- Provides optional visual debugging by rendering the passthrough capture onto a quad via the `DrawPassThroughOnQuad` prefab.
+- Provides optional visual debugging by rendering the passthrough capture onto a raw image via the `StreamPassthrough` prefab.
 
 ## Unity Environment
 - Unity Editor: 6000.2.10f1 (Mixed Reality Template)
@@ -15,8 +15,8 @@ This Unity project demonstrates how to capture a user's voice and egocentric cam
 ## Package Dependencies
 - `com.google.xr.extensions` 1.2.0
 - `com.openai.unity` 8.8.7
-- `com.unity.xr.interaction.toolkit` 3.2.1
-- `com.unity.xr.hands` 1.7.0
+- `com.unity.xr.interaction.toolkit` 3.2.1 including all samples
+- `com.unity.xr.hands` 1.7.0 including all samples 
 - `com.unity.xr.arfoundation` 6.2.0
 
 ## OpenAI Integration
